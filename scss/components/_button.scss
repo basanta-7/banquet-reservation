@@ -1,0 +1,17 @@
+.btn {
+	// border-radius: 30px;
+	background: $color-primary;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+.button-wrapper {
+	justify-content: center;
+	.main-btn {
+		display: flex;
+		padding: 13px 50px;
+		margin: 20px 0;
+		justify-content: center;
+	}
+}

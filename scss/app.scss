@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|PT+Serif:400,400i,700|Prata&display=swap');
+
+@import 'abstract/function';
+@import 'abstract/mixins';
+@import 'abstract/variables';
+
+@import 'base/base';
+@import 'base/typpgraphy';
+
+@import 'components/button';
+@import 'components/checkbox';
+@import 'components/carousel';
+@import 'components/header';
+@import 'components/footer';
+
+@import 'pages/home';
+@import 'pages/form';
+@import 'pages/aboutUs';
+@import 'pages/login';
+@import 'pages/register'

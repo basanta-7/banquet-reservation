@@ -1,0 +1,99 @@
+.home-nav {
+	.navbar {
+		background: transparent;
+		position: relative;
+		box-shadow: 1px 1rem 3rem rgba(#000, 0.1) !important;
+
+		.navbar-brand {
+			color: $color-primary !important;
+		}
+
+		.nav-link {
+			color: #000 !important;
+		}
+
+		@media (max-width: 991.98px) {
+			.navbar-toggler {
+				color: #000 !important;
+				background: $color-primary;
+			}
+			.navbar-toggler-icon {
+				width: 1em;
+			}
+		}
+	}
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	box-shadow: none;
+	z-index: 100;
+
+	.navbar-brand {
+		font-family: $fontC;
+		font-size: 40px;
+		font-weight: 600;
+	}
+
+	&.show {
+		position: fixed;
+		top: 0;
+		background: #fff;
+		padding: 10px 0 !important;
+		width: 100%;
+		box-shadow: 1px 1rem 3rem rgba(#000, 0.2);
+		border-bottom: 3px solid #f3f3f3;
+		z-index: 100;
+		transition: all 350ms ease-in-out;
+
+		@media (max-width: 575.98px) {
+			padding: 1rem 2rem !important;
+		}
+
+		.navbar-brand {
+			color: #000;
+		}
+
+		.nav-link {
+			color: #000 !important;
+
+			&:hover {
+				color: $color-primary !important;
+			}
+		}
+
+		.navbar-toggler {
+			color: #000 !important;
+			background: $color-primary;
+			padding: 10px 15px;
+
+			@media (max-width: 575.98px) {
+				padding: 0.25rem 0.75rem;
+			}
+		}
+	}
+
+	.nav-item {
+		padding-right: 20px;
+	}
+
+	.nav-item.active > .nav-link {
+		background-color: transparent !important;
+		color: $color-primary !important;
+	}
+
+	.nav-link {
+		font-size: 14px;
+		line-height: 26px;
+		text-align: center;
+		color: #fff;
+		font-family: $fontS;
+		text-transform: uppercase;
+		letter-spacing: 2px !important;
+
+		&:hover {
+			color: $color-primary !important;
+		}
+	}
+}
